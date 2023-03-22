@@ -1,19 +1,19 @@
 Readme
 
-        Скачиваем docker
+        First of all, download docker
 
 
-        С корня проекта запускаем команду:
+        Run the command from the project root:
             -> docker-compose up --build -d
 
-        Заходим в php контейнер с помощью команды: 
+        Enter php container using the command: 
            -> docker-compose exec backend bash
         
-        Из под контейнера запускаем команды: 
+        Run commands from under the container: 
             -> composer install
             
             -> php init
             
             -> php yii migrate
          
-            Заходим в http://localhost:21080/todo
+            Enter into http://localhost:21080/todo
